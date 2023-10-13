@@ -1,5 +1,4 @@
 //Consensus Algorithm
-
 const crypto = require('crypto');
 let difficulty =4;
 let target = '0'.repeat(difficulty); //target is leading 4 zeroes. so we represent this by using this line
