@@ -1,6 +1,6 @@
 //Consensus Algorithm
 const crypto = require('crypto');
-let difficulty = 2;
+let difficulty = 5;
 let target = '0'.repeat(difficulty); //target is leading 4 zeroes. so we represent this by using this line
 let nonce;
 let nonceMax = Math.pow(2,30);       //max range of nonce that can be produced
